@@ -25,6 +25,8 @@ public class Contacto {
 	public String toString() {
 		return "Contacto [Nombre=" + Nombre + ", Numero=" + Numero + "]";
 	}
+	
+//	Se genera vCard lo cual es el formato que se vera en el celular.
 	public String toVCardString() {
         StringBuilder sb = new StringBuilder();
         sb.append("BEGIN:VCARD\n");
